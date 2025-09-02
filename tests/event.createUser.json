@@ -1,0 +1,5 @@
+{
+  "body": "{\"name\":\"John Doe\",\"email\":\"john@example.com\",\"age\":30,\"address\":\"123 Main St\",\"phone\":\"1234567890\"}",
+  "httpMethod": "POST",
+  "resource": "/users"
+}

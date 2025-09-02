@@ -1,0 +1,6 @@
+{
+  "httpMethod": "PUT",
+  "resource": "/orders/{order_id}",
+  "pathParameters": { "order_id": 1 },
+  "body": "{\"product\":\"Pen\",\"amount\":9.99}"
+}

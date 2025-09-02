@@ -1,0 +1,14 @@
+{
+  "name": "aws-lambda-rest-mysql",
+  "version": "1.0.0",
+  "description": "AWS Lambda REST API with MySQL integration",
+  "main": "src/createUser.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.4"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "httpMethod": "GET",
+  "resource": "/users/{id}",
+  "pathParameters": { "id": 1 }
+}

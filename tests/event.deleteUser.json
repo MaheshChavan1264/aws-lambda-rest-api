@@ -1,0 +1,5 @@
+{
+  "httpMethod": "DELETE",
+  "resource": "/users/{id}",
+  "pathParameters": { "id": 1 }
+}

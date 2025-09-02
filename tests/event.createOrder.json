@@ -1,0 +1,5 @@
+{
+  "body": "{\"user_id\":1,\"product\":\"Book\",\"amount\":19.99}",
+  "httpMethod": "POST",
+  "resource": "/orders"
+}
