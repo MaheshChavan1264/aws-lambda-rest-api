@@ -1,7 +1,6 @@
 const pool = require("../db/db");
 
 exports.handler = async (event) => {
-  const { order_id } = event.pathParameters;
   if (!event.pathParameters || !event.pathParameters.order_id) {
     console.warn("Validation failed: order_id required");
     return {

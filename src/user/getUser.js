@@ -1,7 +1,6 @@
 const pool = require("../db/db");
 
 exports.handler = async (event) => {
-  const { id } = event.pathParameters;
   if (!event.pathParameters || !event.pathParameters.id) {
     console.warn("Validation failed: id required");
     return {
